@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tekorse Technologies Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(135,206,235,0.5);
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            text-align: center;
+           
+     
+        }
+        .image-container img {
+            display: inline-block;
+            max-width:300px;
+            max-height:200px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+
+        input[type="text"], input[type="email"], textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+           
+         input, select {
+            width: 90%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="image-container">
+        <img src="image.png" alt="Center aligned image">
+        </div>
+        <h1 style ="font-size:25px;text-align:center;color:BLACK;line-height:0.2;"> Hyderabad, India </h1>  
+        <h1 style ="font-size:20px;text-align:left;color:BLACK;line-height: 1.5;"> Registration Form:</h1>      
+        <form action="#" method="post">
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="qualification">Qualification:</label>
+            <input type="text" id="qualification" name="qualification">
+
+            <label for="stream">Stream:</label>
+            <input type="text" id="stream" name="stream"> 
+
+            <label for="Percentage">Percentage or CGPA:</label>
+            <input type="text" id="Percentage" name="Percentage">
+
+            <label for="passedout">Passed Out Year:</label>
+            <select id="passedout" name="passedout">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+
+           <label for="skills">Skills:</label>
+            <input type="text" id="Skills" name="Skills">
+
+            <label for="experience">Experience:</label>
+            <input type="number" id="experience" name="experience">
+           
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="other">other</option>
+            </select>
+            
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+
+            <input type="submit" value="Submit Application">
+        </form>
+    </div>
+</body>
+</html>
+
+
